@@ -1,0 +1,28 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+.row > div {
+  box-shadow: 5px 5px 36px 18px rgba(0, 0, 0, 0.382) !important;
+}
+#loginSystemPage,
+.form input {
+  background-color: #24353f;
+}
+.form input:focus {
+  background-color: #24353f;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.659) !important;
+}
+.login h1 {
+  color: #17a2b8;
+}
+.row a[role] {
+  color: #17a2b8 !important;
+}
+.row a[role]:hover {
+  color: white !important;
+}
+.row p a:hover {
+  text-decoration: underline !important;
+}

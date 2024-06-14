@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/login page.css" />
+    <title>Sign up page</title>
+  </head>
+  <body>
+    <div id="loginSystemPage" class="vh-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-8 m-auto my-5 p-5">
+            <div class="login">
+              <h1 class="text-center mb-3">Smart Login System</h1>
+              <div class="form">
+                <input
+                  id="user-name"
+                  type="text"
+                  name="name"
+                  placeholder="Enter Your Name"
+                  class="form-control text-white mb-3"
+                  required
+                />
+                <input
+                  id="user-email"
+                  type="email"
+                  name="email"
+                  placeholder="Enter Your Email"
+                  class="form-control text-white mb-3"
+                  required
+                />
+                <input
+                  id="user-password"
+                  type="password"
+                  name="password"
+                  placeholder="Enter Your Password"
+                  class="form-control text-white mb-3"
+                  required
+                />
+                <div id="userMassage" class="text-center mb-4"></div>
+                <a
+                  id="btn-signup"
+                  href="#"
+                  class="btn btn-outline-info text-white w-100"
+                  role="button"
+                  >Sign Up</a
+                >
+              </div>
+              <p class="text-center text-white mt-3">
+                You have an account?
+                <a class="text-decoration-none text-white" href="index.html"
+                  >Sign In</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/sign.up.js"></script>
+  </body>
+</html>

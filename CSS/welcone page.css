@@ -1,0 +1,14 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+#welcomePage,
+.navbar {
+  background-color: #24353f;
+}
+.col-8 {
+  color: #17a2b8 !important;
+}
+
+.row > h1 {
+  box-shadow: 5px 5px 36px 18px rgba(0, 0, 0, 0.382) !important;
+}
